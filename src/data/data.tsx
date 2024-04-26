@@ -85,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/HPM.pdf',
+      href: '/assets/dummy.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
