@@ -85,7 +85,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/HPM.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -121,36 +121,22 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
       {
         name: 'React',
         level: 9,
+        icon: 'devicon-react-original-wordmark colored'
       },
       {
         name: 'Typescript',
         level: 7,
+        icon: 'devicon-typescript-plain colored'
       },
       {
         name: 'GraphQL',
         level: 6,
+        icon: 'devicon-graphql-plain colored'
       },
     ],
   },
@@ -160,34 +146,20 @@ export const skills: SkillGroup[] = [
       {
         name: 'Node.js',
         level: 8,
+        icon: 'devicon-nodejs-plain colored'
       },
       {
         name: 'Rust',
-        level: 5,
+        level: 0,
+        icon: 'devicon-rust-original colored'
       },
       {
         name: 'Golang',
         level: 4,
+        icon: 'devicon-go-plain colored'
       },
     ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
-    ],
-  },
+  }
 ];
 
 /**
