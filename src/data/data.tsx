@@ -2,6 +2,8 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
+  MapIcon,
+  SparklesIcon,
   // CalendarIcon,
   // FlagIcon,
   // MapIcon,
@@ -85,7 +87,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/dummy.pdf',
+      href: '/assets/AndrewGolubevCV_v3.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -103,16 +105,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have 10+ years of experience in diverse software development roles, with a deep understanding of engineering 
+  best practices. I'm passionate about producing clean, maintainable code, and have a proven track record of 
+  delivering high-quality work on time. I'm highly organized, detail-oriented, and a strong team player, always 
+  eager to learn and take on new challenges in fast-paced environments.`,
   aboutItems: [
-    // {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Location', text: 'Brisbane', ref: 'https://www.google.com/maps/place/Brisbane+QLD/@-27.3821429,152.9931964,10z/data=!3m1!4b1!4m6!3m5!1s0x6b91579aac93d233:0x402a35af3deaf40!8m2!3d-27.4704528!4d153.0260341!16zL20vMDFiOGpq?entry=ttu', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'KFU', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'CTM', Icon: BuildingOffice2Icon},
+    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'KFU', ref: 'https://eng.kpfu.ru/', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'CTM', ref: 'https://comparethemarket.com.au/', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -138,25 +141,146 @@ export const skills: SkillGroup[] = [
         level: 6,
         icon: 'devicon-graphql-plain colored'
       },
+      {
+        name: 'JavaScript',
+        level: 9,
+        icon: 'devicon-javascript-plain colored'
+      },
+      {
+        name: 'Svelte',
+        level: 7,
+        icon: 'devicon-svelte-plain colored'
+      },
+      {
+        name: 'Angular',
+        level: 6,
+        icon: 'devicon-angularjs-plain colored'
+      },
+      {
+        name: 'Material',
+        level: 6,
+        icon: 'devicon-angularmaterial-plain colored'
+      },
+      {
+        name: 'JQuery',
+        level: 6,
+        icon: 'devicon-jquery-plain colored'
+      },
+      {
+        name: 'CSS',
+        level: 6,
+        icon: 'devicon-css3-plain-wordmark'
+      },
+      {
+        name: 'bootstrap',
+        level: 6,
+        icon: 'devicon-bootstrap-plain-wordmark'
+      },
+      {
+        name: 'Redux',
+        level: 6,
+        icon: 'devicon-redux-original colored'
+      },
+      {
+        name: 'HTML',
+        level: 6,
+        icon: 'devicon-html5-plain colored'
+      },
+      {
+        name: 'NPM',
+        level: 6,
+        icon: 'devicon-npm-original-wordmark colored'
+      },
+      {
+        name: 'Flutter',
+        level: 6,
+        icon: 'devicon-flutter-plain colored'
+      },
     ],
   },
   {
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Node',
         level: 8,
         icon: 'devicon-nodejs-plain colored'
       },
       {
-        name: 'Rust',
+        name: 'Java',
         level: 0,
-        icon: 'devicon-rust-original colored'
+        icon: 'devicon-java-original colored'
       },
       {
         name: 'Golang',
         level: 4,
         icon: 'devicon-go-plain colored'
+      },
+      {
+        name: 'Python',
+        level: 4,
+        icon: 'devicon-python-plain colored'
+      },
+
+      {
+        name: 'Spring',
+        level: 8,
+        icon: 'devicon-spring-plain colored'
+      },
+      {
+        name: 'MySQL',
+        level: 0,
+        icon: 'devicon-mysql-original colored'
+      },
+      {
+        name: 'Hibernate',
+        level: 4,
+        icon: 'devicon-hibernate-plain colored'
+      },
+      {
+        name: 'Maven',
+        level: 4,
+        icon: 'devicon-maven-plain colored'
+      },
+      {
+        name: 'AWS',
+        level: 8,
+        icon: 'devicon-amazonwebservices-plain-wordmark colored'
+      },
+      {
+        name: 'Kubernetes',
+        level: 4,
+        icon: 'devicon-kubernetes-plain colored'
+      },
+      {
+        name: 'Docker',
+        level: 0,
+        icon: 'devicon-docker-plain colored'
+      },
+      {
+        name: 'MariaDB',
+        level: 4,
+        icon: 'devicon-mariadb-plain colored'
+      },
+      {
+        name: 'DynamoDB',
+        level: 4,
+        icon: 'devicon-dynamodb-plain colored'
+      },
+      {
+        name: 'MongoDB',
+        level: 4,
+        icon: 'devicon-mongodb-plain colored'
+      },
+      {
+        name: 'Liquibase',
+        level: 4,
+        icon: 'devicon-liquibase-plain colored'
+      },
+      {
+        name: 'Swagger',
+        level: 4,
+        icon: 'devicon-swagger-plain colored'
       },
     ],
   },
@@ -166,18 +290,58 @@ export const skills: SkillGroup[] = [
       {
         name: 'Bamboo',
         level: 8,
-        icon: 'devicon-nodejs-plain colored'
+        icon: 'devicon-bamboo-original colored'
       },
       {
         name: 'Git',
         level: 0,
-        icon: 'devicon-rust-original colored'
+        icon: 'devicon-github-original colored'
       },
       {
         name: 'Azure',
         level: 4,
-        icon: 'devicon-go-plain colored'
+        icon: 'devicon-azuredevops-plain colored'
       },
+      {
+        name: 'Jenkins',
+        level: 4,
+        icon: 'devicon-jenkins-plain colored'
+      },
+      {
+        name: 'Linux',
+        level: 4,
+        icon: 'devicon-linux-plain colored'
+      },
+      {
+        name: 'Windows',
+        level: 4,
+        icon: 'devicon-windows11-plain colored'
+      },
+      {
+        name: 'Mac',
+        level: 4,
+        icon: 'devicon-apple-plain colored'
+      },
+      {
+        name: 'JetBrains',
+        level: 4,
+        icon: 'devicon-jetbrains-plain colored'
+      },
+      {
+        name: 'Eclipse',
+        level: 4,
+        icon: 'devicon-eclipse-plain colored'
+      },
+      {
+        name: 'VSC',
+        level: 4,
+        icon: 'devicon-vscode-plain colored'
+      },
+      {
+        name: 'Bitbucket',
+        level: 4,
+        icon: 'devicon-bitbucket-plain colored'
+      }
     ],
   }
 ];
