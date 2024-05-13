@@ -28,6 +28,7 @@ import heroImage from '../images/header-background.webp';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
+import resumeBackgroundImage from '../images/resume-background.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -41,6 +42,8 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+
+export const cvBackgroundImage = resumeBackgroundImage;
 
 /**
  * Page meta data
@@ -87,7 +90,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/AndrewGolubevCV_v3.pdf',
+      href: '/assets/AndreyCV.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -113,7 +116,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Brisbane', ref: 'https://www.google.com/maps/place/Brisbane+QLD/@-27.3821429,152.9931964,10z/data=!3m1!4b1!4m6!3m5!1s0x6b91579aac93d233:0x402a35af3deaf40!8m2!3d-27.4704528!4d153.0260341!16zL20vMDFiOGpq?entry=ttu', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Interests', text: ': AI, robotics, Web3, Natural Science, DIY, Traveling, 4x4, Sport', Icon: SparklesIcon},
     {label: 'Study', text: 'KFU', ref: 'https://eng.kpfu.ru/', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'CTM', ref: 'https://comparethemarket.com.au/', Icon: BuildingOffice2Icon},
   ],
@@ -129,7 +132,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'React',
         level: 9,
-        icon: 'devicon-react-original-wordmark colored'
+        icon: 'devicon-react-original-wordmark'
       },
       {
         name: 'Typescript',
@@ -144,7 +147,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'JavaScript',
         level: 9,
-        icon: 'devicon-javascript-plain colored'
+        icon: 'devicon-javascript-plain'
       },
       {
         name: 'Svelte',
@@ -219,9 +222,8 @@ export const skills: SkillGroup[] = [
       {
         name: 'Python',
         level: 4,
-        icon: 'devicon-python-plain colored'
+        icon: 'devicon-python-plain'
       },
-
       {
         name: 'Spring',
         level: 8,
@@ -280,7 +282,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'Swagger',
         level: 4,
-        icon: 'devicon-swagger-plain colored'
+        icon: 'devicon-swagger-plain'
       },
     ],
   },
@@ -305,7 +307,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'Jenkins',
         level: 4,
-        icon: 'devicon-jenkins-plain colored'
+        icon: 'devicon-jenkins-plain'
       },
       {
         name: 'Linux',
@@ -325,7 +327,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'JetBrains',
         level: 4,
-        icon: 'devicon-jetbrains-plain colored'
+        icon: 'devicon-jetbrains-plain'
       },
       {
         name: 'Eclipse',
@@ -423,39 +425,104 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2009',
+    location: 'Kazan State University',
+    title: 'Master’s Degree in Physics',
+    content: <p>Cum Laude</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2007',
+    location: 'Kazan State University',
+    title: 'Bachelor’s Degree in Radio Physics',
+    content: <p>Cum Laude</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '2021 - Present',
+    location: 'Compare the Market, Brisbane, Australia',
+    title: 'Seniour Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <p>Developed full-stack software solutions using a variety of tools and languages such as Java, Go, Selenium, Spring, MariaDB, Svelte, JavaScript, React, Redux, Saga, GitHub, Docker, Kubernetes, Bamboo, Jira, Confluence, Azure, Splunk, New Relic, and AWS services like Lambda, CloudWatch, CloudFormation, KMS, and EC2;</p>
+        <p>Led the development efforts for health insurance IT projects for a duration of one year. This involved managing tasks, coordinating weekly releases, and strategic planning;</p>
+        <p>Actively engaged with multiple delivery teams, particularly the core team, to ensure seamless collaboration and project success;</p>
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '2021 - Present',
+    location: 'Brisbane, Australia',
+    title: 'Seniour Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <p>Developed the backend service for a drone flight operations, fleet, and compliance management system. Utilized Java, Spring Boot, Hibernate, Liquibase, MariaDB, Bitbucket, and GeoJSON, among other tools;</p>
+        <p>Designed and maintained a flight planning module ensuring compliance with CASA rules. This involved integrating coordinates, times, RPA models, NOTAM, and various parameters from geo APIs;</p>
+        <p>Implemented preprocessing of geospatial data using Python;</p>
+        <p>Troubleshot and optimized a DJI flight logs parsing service (written in C++, Python, running on Ubuntu), including the development of unit tests;</p>
+        <p>Contributed to third-party platform app development and integration using Node.js and GraphQL;</p>
+      </p>
+    ),
+  },
+  {
+    date: '2019 – 2021',
+    location: 'Brisbane, Australia',
+    title: 'Seniour Software Developer',
+    content: (
+      <p>
+        <p>Developed both backend and frontend components for mining project evaluation, stock data search, and analysis. Leveraged technologies such as Java, Spring Boot, Hibernate, PostgreSQL, Angular 2, Node.js, Bitbucket, Git, and Jenkins, alongside other relevant tools;</p>
+        <p>Orchestrated the deployment and upkeep of the AWS stack, encompassing CloudFormation, DynamoDB, AWS Lambda, and ElasticSearch, among other services;</p>
+        <p>Crafted comprehensive testing strategies, including unit, regression, and smoke testing, to ensure the robustness and reliability of the developed software solutions;</p>
+        <p>Seamlessly integrated stock data provider APIs into the system, enhancing the platform's capability for comprehensive data analysis and evaluation;</p>
+
+      </p>
+    ),
+  },
+  {
+    date: '2018 – 2019',
+    location: 'Sydney, Australia',
+    title: 'Full Stack Developer',
+    content: (
+      <p>
+        <p>Developed web applications and REST APIs using a technology stack comprising Java, Spring, Hibernate, MySQL, HTML, CSS, Bootstrap, JSP, and JavaScript (including JQuery and AJAX). Adopted a continuous development approach and followed agile methodology principles;</p>
+        <p>Managed the deployment and maintenance of an AWS infrastructure stack, including EC2, Elastic Beanstalk, Lambda, CloudWatch, SQS, RDS, S3, and DynamoDB;</p>
+        <p>Implemented comprehensive testing methodologies, encompassing unit, regression, and smoke testing, alongside the development of automated tests leveraging JUnit and Selenium frameworks;</p>
+        <p>Provided dedicated customer support via email for a key client, resolving their inquiries efficiently. Additionally, addressed operational issues for other customer teams, ensuring smooth service delivery;</p>
+        <p>Developed detailed documentation and user guides, facilitating the understanding and utilization of the developed software solutions;</p>
+      </p>
+    ),
+  },
+  {
+    date: '2014 – 2017',
+    location: 'Kazan, Russia',
+    title: 'Engineer',
+    content: (
+      <p>
+        <p>Led the development of multiple web applications dedicated to automating geotechnical calculations, employing Java, Spring Framework, Hibernate, and MySQL technologies;</p>
+        <p>Collaborated within an agile team, adhering to 2-week sprint cycles and actively incorporating feedback from the product manager to refine product features;</p>
+        <p>Formulated sophisticated algorithms for data analysis, utilizing tools such as Jama and Apache Commons Math to ensure accurate results;</p>
+        <p>Leveraged Spring Core annotations for efficient dependency injection, while employing Spring MVC, Security, and Boot for streamlined application development;</p>
+        <p>Designed and implemented JSPs incorporating HTML, CSS, Bootstrap, and JavaScript (including JQuery, AJAX, and plotly) to deliver intuitive user interfaces and interactive data visualization;</p>
+        <p>Managed version control processes using Git, ensuring seamless collaboration and codebase integrity among team members;</p>
+        <p>Upheld rigorous standards of software quality by maintaining high levels of unit test coverage through Test-Driven Development methodologies, employing JUnit and jMock frameworks;</p>
+        <p>Implemented robust logging mechanisms using Spring AOP and AspectJ to monitor application performance and troubleshoot issues effectively;</p>
+        <p>Undertook responsibilities in administering MySQL databases and Linux servers, ensuring optimal performance and reliability of the infrastructure supporting the web applications.;</p>
+      </p>
+    ),
+  },
+  {
+    date: '2014 – 2017',
+    location: 'Kazan, Russia',
+    title: 'Engineer',
+    content: (
+      <p>
+        <p>Developed software solutions utilizing a diverse set of technologies including Java, C++, HTML, JSP, JavaScript, CSS, and SQL, focusing on data analysis, Advanced Process Control Systems (APCS), and physical modeling. Employed JavaFX, Swing, Jama, Apache Commons Math, and Matlab Servers to achieve project objectives effectively;</p>
+        <p>Created dynamic JSPs for web application development, integrating HTML, CSS, Bootstrap, JavaScript (including JQuery and AJAX) to deliver intuitive user interfaces and interactive functionalities;</p>
+        <p>Orchestrated project development processes, encompassing tender documentation preparation, project planning and monitoring, customer communication, and report preparation and presentation, ensuring project milestones were met efficiently;</p>
+        <p>Led investigations into the synthesis of emulsion for various applications, including medical X-ray, air, and aerospace photographic films. Developed bespoke APCS software to facilitate and optimize the synthesis process;</p>
+        <p>Conducted rigorous pre-installation testing of individual modules within a networked environment, ensuring seamless integration and functionality. Oversaw the assembly of disparate modules into cohesive systems;</p>
+        <p>Executed comprehensive test synthesis procedures, fine-tuning equipment and software configurations as necessary to meet project specifications. Provided dedicated post-production customer support, ensuring client satisfaction and resolving any issues promptly.;</p>
       </p>
     ),
   },
