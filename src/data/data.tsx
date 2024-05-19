@@ -557,13 +557,13 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
+  headerText: 'Get in touch',
   description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
       type: ContactType.Email,
-      text: 'mailto@gmail.com',
-      href: 'mailto:mailto@gmail.com',
+      text: 'contact@andreygolubev.online',
+      href: 'mailto:contact@andreygolubev.online',
     },
     // {
     //   type: ContactType.Location,

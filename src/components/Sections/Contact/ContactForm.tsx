@@ -1,3 +1,4 @@
+// import emailjs from 'emailjs-com';
 import {FC, memo, useCallback, useMemo, useState} from 'react';
 
 interface FormData {
@@ -29,22 +30,25 @@ const ContactForm: FC = memo(() => {
     [data],
   );
 
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
-    },
-    [data],
-  );
+  // const handleSendMessage = useCallback(
+  //   async (event: React.FormEvent<HTMLFormElement>) => {
+  //     event.preventDefault();
+  //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', event.currentTarget.value, 'YOUR_USER_ID')
+  //     .then(() => {
+  //         window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  //     console.log('Data to send: ', data);
+  //   },
+  //   [data],
+  // );
 
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';
 
   return (
-    <form className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" onSubmit={handleSendMessage}>
+    <form action="https://formspree.io/f/xkndelyl" className="grid min-h-[320px] grid-cols-1 gap-y-4" method="POST" target="_blank">
       <input className={inputClasses} name="name" onChange={onChange} placeholder="Name" required type="text" />
       <input
         autoComplete="email"
