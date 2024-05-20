@@ -116,7 +116,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Brisbane', ref: 'https://www.google.com/maps/place/Brisbane+QLD/@-27.3821429,152.9931964,10z/data=!3m1!4b1!4m6!3m5!1s0x6b91579aac93d233:0x402a35af3deaf40!8m2!3d-27.4704528!4d153.0260341!16zL20vMDFiOGpq?entry=ttu', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: ': AI, robotics, Web3, Natural Science, DIY, Traveling, 4x4, Sport', Icon: SparklesIcon},
+    {label: 'Interests', text: 'AI, robotics, Web3, Science, DIY, Travel', Icon: SparklesIcon},
     {label: 'Study', text: 'KFU', ref: 'https://eng.kpfu.ru/', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'CTM', ref: 'https://comparethemarket.com.au/', Icon: BuildingOffice2Icon},
   ],
@@ -137,12 +137,12 @@ export const skills: SkillGroup[] = [
       {
         name: 'Typescript',
         level: 7,
-        icon: 'devicon-typescript-plain colored'
+        icon: 'devicon-typescript-plain '
       },
       {
         name: 'GraphQL',
         level: 6,
-        icon: 'devicon-graphql-plain colored'
+        icon: 'devicon-graphql-plain '
       },
       {
         name: 'JavaScript',
@@ -152,22 +152,22 @@ export const skills: SkillGroup[] = [
       {
         name: 'Svelte',
         level: 7,
-        icon: 'devicon-svelte-plain colored'
+        icon: 'devicon-svelte-plain '
       },
       {
         name: 'Angular',
         level: 6,
-        icon: 'devicon-angularjs-plain colored'
+        icon: 'devicon-angularjs-plain '
       },
       {
         name: 'Material',
         level: 6,
-        icon: 'devicon-angularmaterial-plain colored'
+        icon: 'devicon-angularmaterial-plain '
       },
       {
         name: 'JQuery',
         level: 6,
-        icon: 'devicon-jquery-plain colored'
+        icon: 'devicon-jquery-plain '
       },
       {
         name: 'CSS',
@@ -182,22 +182,22 @@ export const skills: SkillGroup[] = [
       {
         name: 'Redux',
         level: 6,
-        icon: 'devicon-redux-original colored'
+        icon: 'devicon-redux-original '
       },
       {
         name: 'HTML',
         level: 6,
-        icon: 'devicon-html5-plain colored'
+        icon: 'devicon-html5-plain '
       },
       {
         name: 'NPM',
         level: 6,
-        icon: 'devicon-npm-original-wordmark colored'
+        icon: 'devicon-npm-original-wordmark '
       },
       {
         name: 'Flutter',
         level: 6,
-        icon: 'devicon-flutter-plain colored'
+        icon: 'devicon-flutter-plain '
       },
     ],
   },
@@ -207,17 +207,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Node',
         level: 8,
-        icon: 'devicon-nodejs-plain colored'
+        icon: 'devicon-nodejs-plain '
       },
       {
         name: 'Java',
         level: 0,
-        icon: 'devicon-java-original colored'
+        icon: 'devicon-java-original '
       },
       {
         name: 'Golang',
         level: 4,
-        icon: 'devicon-go-plain colored'
+        icon: 'devicon-go-plain '
       },
       {
         name: 'Python',
@@ -227,57 +227,57 @@ export const skills: SkillGroup[] = [
       {
         name: 'Spring',
         level: 8,
-        icon: 'devicon-spring-plain colored'
+        icon: 'devicon-spring-plain '
       },
       {
         name: 'MySQL',
         level: 0,
-        icon: 'devicon-mysql-original colored'
+        icon: 'devicon-mysql-original '
       },
       {
         name: 'Hibernate',
         level: 4,
-        icon: 'devicon-hibernate-plain colored'
+        icon: 'devicon-hibernate-plain '
       },
       {
         name: 'Maven',
         level: 4,
-        icon: 'devicon-maven-plain colored'
+        icon: 'devicon-maven-plain '
       },
       {
         name: 'AWS',
         level: 8,
-        icon: 'devicon-amazonwebservices-plain-wordmark colored'
+        icon: 'devicon-amazonwebservices-plain-wordmark '
       },
       {
         name: 'Kubernetes',
         level: 4,
-        icon: 'devicon-kubernetes-plain colored'
+        icon: 'devicon-kubernetes-plain '
       },
       {
         name: 'Docker',
         level: 0,
-        icon: 'devicon-docker-plain colored'
+        icon: 'devicon-docker-plain '
       },
       {
         name: 'MariaDB',
         level: 4,
-        icon: 'devicon-mariadb-plain colored'
+        icon: 'devicon-mariadb-plain '
       },
       {
         name: 'DynamoDB',
         level: 4,
-        icon: 'devicon-dynamodb-plain colored'
+        icon: 'devicon-dynamodb-plain '
       },
       {
         name: 'MongoDB',
         level: 4,
-        icon: 'devicon-mongodb-plain colored'
+        icon: 'devicon-mongodb-plain '
       },
       {
         name: 'Liquibase',
         level: 4,
-        icon: 'devicon-liquibase-plain colored'
+        icon: 'devicon-liquibase-plain '
       },
       {
         name: 'Swagger',
@@ -292,17 +292,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Bamboo',
         level: 8,
-        icon: 'devicon-bamboo-original colored'
+        icon: 'devicon-bamboo-original '
       },
       {
         name: 'Git',
         level: 0,
-        icon: 'devicon-github-original colored'
+        icon: 'devicon-github-original '
       },
       {
         name: 'Azure',
         level: 4,
-        icon: 'devicon-azuredevops-plain colored'
+        icon: 'devicon-azuredevops-plain '
       },
       {
         name: 'Jenkins',
@@ -312,17 +312,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Linux',
         level: 4,
-        icon: 'devicon-linux-plain colored'
+        icon: 'devicon-linux-plain '
       },
       {
         name: 'Windows',
         level: 4,
-        icon: 'devicon-windows11-plain colored'
+        icon: 'devicon-windows11-plain '
       },
       {
         name: 'Mac',
         level: 4,
-        icon: 'devicon-apple-plain colored'
+        icon: 'devicon-apple-plain '
       },
       {
         name: 'JetBrains',
@@ -332,17 +332,22 @@ export const skills: SkillGroup[] = [
       {
         name: 'Eclipse',
         level: 4,
-        icon: 'devicon-eclipse-plain colored'
+        icon: 'devicon-eclipse-plain '
       },
       {
         name: 'VSC',
         level: 4,
-        icon: 'devicon-vscode-plain colored'
+        icon: 'devicon-vscode-plain '
       },
       {
         name: 'Bitbucket',
         level: 4,
-        icon: 'devicon-bitbucket-plain colored'
+        icon: 'devicon-bitbucket-plain '
+      },
+      {
+        name: 'Selenium',
+        level: 4,
+        icon: 'devicon-selenium-original '
       }
     ],
   }
@@ -445,9 +450,9 @@ export const experience: TimelineItem[] = [
     title: 'Seniour Software Engineer',
     content: (
       <p>
-        <p>Developed full-stack software solutions using a variety of tools and languages such as Java, Go, Selenium, Spring, MariaDB, Svelte, JavaScript, React, Redux, Saga, GitHub, Docker, Kubernetes, Bamboo, Jira, Confluence, Azure, Splunk, New Relic, and AWS services like Lambda, CloudWatch, CloudFormation, KMS, and EC2;</p>
-        <p>Led the development efforts for health insurance IT projects for a duration of one year. This involved managing tasks, coordinating weekly releases, and strategic planning;</p>
-        <p>Actively engaged with multiple delivery teams, particularly the core team, to ensure seamless collaboration and project success;</p>
+        <p>- Engineered robust full-stack solutions using Java, Go, Selenium, Spring, MariaDB, Svelte, JavaScript, React, Redux, Saga, GitHub, Docker, Kubernetes, Bamboo, Jira, Confluence, Azure, Splunk, New Relic, and AWS services (Lambda, CloudWatch, CloudFormation, KMS, EC2);</p>
+        <p>- Spearheaded the development of health insurance IT projects, overseeing task management, coordinating weekly releases, and executing strategic planning;</p>
+        <p>- Actively collaborated with multiple delivery teams, particularly the core team, to ensure seamless project execution and success;</p>
       </p>
     ),
   },
@@ -457,11 +462,11 @@ export const experience: TimelineItem[] = [
     title: 'Seniour Software Engineer',
     content: (
       <p>
-        <p>Developed the backend service for a drone flight operations, fleet, and compliance management system. Utilized Java, Spring Boot, Hibernate, Liquibase, MariaDB, Bitbucket, and GeoJSON, among other tools;</p>
-        <p>Designed and maintained a flight planning module ensuring compliance with CASA rules. This involved integrating coordinates, times, RPA models, NOTAM, and various parameters from geo APIs;</p>
-        <p>Implemented preprocessing of geospatial data using Python;</p>
-        <p>Troubleshot and optimized a DJI flight logs parsing service (written in C++, Python, running on Ubuntu), including the development of unit tests;</p>
-        <p>Contributed to third-party platform app development and integration using Node.js and GraphQL;</p>
+        <p>- Developed a backend service for drone flight operations, fleet, and compliance management using Java, Spring Boot, Hibernate, Liquibase, MariaDB, Bitbucket, and GeoJSON;</p>
+        <p>- Designed and maintained a flight planning module compliant with CASA rules, integrating coordinates, times, RPA models, NOTAM, and geo API parameters;</p>
+        <p>- Implemented preprocessing of geospatial data using Python;</p>
+        <p>- Optimized a DJI flight logs parsing service (C++, Python on Ubuntu) and developed comprehensive unit tests;</p>
+        <p>- Contributed to third-party platform app development and integration using Node.js and GraphQL;</p>
       </p>
     ),
   },
@@ -471,10 +476,10 @@ export const experience: TimelineItem[] = [
     title: 'Seniour Software Developer',
     content: (
       <p>
-        <p>Developed both backend and frontend components for mining project evaluation, stock data search, and analysis. Leveraged technologies such as Java, Spring Boot, Hibernate, PostgreSQL, Angular 2, Node.js, Bitbucket, Git, and Jenkins, alongside other relevant tools;</p>
-        <p>Orchestrated the deployment and upkeep of the AWS stack, encompassing CloudFormation, DynamoDB, AWS Lambda, and ElasticSearch, among other services;</p>
-        <p>Crafted comprehensive testing strategies, including unit, regression, and smoke testing, to ensure the robustness and reliability of the developed software solutions;</p>
-        <p>Seamlessly integrated stock data provider APIs into the system, enhancing the platform's capability for comprehensive data analysis and evaluation;</p>
+        <p>- Engineered backend and frontend components for mining project evaluation and stock data search/analysis using Java, Spring Boot, Hibernate, PostgreSQL, Angular 2, Node.js, Bitbucket, Git, and Jenkins;</p>
+        <p>- Managed AWS stack deployment and maintenance, including CloudFormation, DynamoDB, AWS Lambda, and ElasticSearch.;</p>
+        <p>- Crafted and implemented unit, regression, and smoke testing strategies to ensure software reliability;</p>
+        <p>- Seamlessly integrated stock data provider APIs, enhancing platform capabilities for comprehensive data analysis;</p>
 
       </p>
     ),
@@ -485,11 +490,11 @@ export const experience: TimelineItem[] = [
     title: 'Full Stack Developer',
     content: (
       <p>
-        <p>Developed web applications and REST APIs using a technology stack comprising Java, Spring, Hibernate, MySQL, HTML, CSS, Bootstrap, JSP, and JavaScript (including JQuery and AJAX). Adopted a continuous development approach and followed agile methodology principles;</p>
-        <p>Managed the deployment and maintenance of an AWS infrastructure stack, including EC2, Elastic Beanstalk, Lambda, CloudWatch, SQS, RDS, S3, and DynamoDB;</p>
-        <p>Implemented comprehensive testing methodologies, encompassing unit, regression, and smoke testing, alongside the development of automated tests leveraging JUnit and Selenium frameworks;</p>
-        <p>Provided dedicated customer support via email for a key client, resolving their inquiries efficiently. Additionally, addressed operational issues for other customer teams, ensuring smooth service delivery;</p>
-        <p>Developed detailed documentation and user guides, facilitating the understanding and utilization of the developed software solutions;</p>
+        <p>- Developed web applications and REST APIs using Java, Spring, Hibernate, MySQL, HTML, CSS, Bootstrap, JSP, and JavaScript (including JQuery and AJAX), adhering to agile methodologies;</p>
+        <p>- Managed AWS infrastructure deployment and maintenance, including EC2, Elastic Beanstalk, Lambda, CloudWatch, SQS, RDS, S3, and DynamoDB;</p>
+        <p>- Implemented automated testing methodologies using JUnit and Selenium;</p>
+        <p>- Provided dedicated customer support and resolved operational issues efficiently;</p>
+        <p>- Developed detailed documentation and user guides to facilitate software utilization;</p>
       </p>
     ),
   },
@@ -499,15 +504,13 @@ export const experience: TimelineItem[] = [
     title: 'Engineer',
     content: (
       <p>
-        <p>Led the development of multiple web applications dedicated to automating geotechnical calculations, employing Java, Spring Framework, Hibernate, and MySQL technologies;</p>
-        <p>Collaborated within an agile team, adhering to 2-week sprint cycles and actively incorporating feedback from the product manager to refine product features;</p>
-        <p>Formulated sophisticated algorithms for data analysis, utilizing tools such as Jama and Apache Commons Math to ensure accurate results;</p>
-        <p>Leveraged Spring Core annotations for efficient dependency injection, while employing Spring MVC, Security, and Boot for streamlined application development;</p>
-        <p>Designed and implemented JSPs incorporating HTML, CSS, Bootstrap, and JavaScript (including JQuery, AJAX, and plotly) to deliver intuitive user interfaces and interactive data visualization;</p>
-        <p>Managed version control processes using Git, ensuring seamless collaboration and codebase integrity among team members;</p>
-        <p>Upheld rigorous standards of software quality by maintaining high levels of unit test coverage through Test-Driven Development methodologies, employing JUnit and jMock frameworks;</p>
-        <p>Implemented robust logging mechanisms using Spring AOP and AspectJ to monitor application performance and troubleshoot issues effectively;</p>
-        <p>Undertook responsibilities in administering MySQL databases and Linux servers, ensuring optimal performance and reliability of the infrastructure supporting the web applications.;</p>
+        <p>- Led the development of web applications for automating geotechnical calculations using Java, Spring, Hibernate, and MySQL;</p>
+        <p>- Worked within an agile team, refining product features based on feedback and sprint cycles;</p>
+        <p>- Developed sophisticated data analysis algorithms using Jama and Apache Commons Math;</p>
+        <p>- Designed intuitive UIs with JSP, HTML, CSS, Bootstrap, and JavaScript (including JQuery, AJAX, and plotly);</p>
+        <p>- Managed version control with Git, ensuring seamless collaboration;</p>
+        <p>- Maintained high levels of unit test coverage through TDD with JUnit and jMock;</p>
+        <p>- Implemented robust logging with Spring AOP and AspectJ, and administered MySQL databases and Linux servers for optimal performance;</p>
       </p>
     ),
   },
@@ -517,12 +520,11 @@ export const experience: TimelineItem[] = [
     title: 'Engineer',
     content: (
       <p>
-        <p>Developed software solutions utilizing a diverse set of technologies including Java, C++, HTML, JSP, JavaScript, CSS, and SQL, focusing on data analysis, Advanced Process Control Systems (APCS), and physical modeling. Employed JavaFX, Swing, Jama, Apache Commons Math, and Matlab Servers to achieve project objectives effectively;</p>
-        <p>Created dynamic JSPs for web application development, integrating HTML, CSS, Bootstrap, JavaScript (including JQuery and AJAX) to deliver intuitive user interfaces and interactive functionalities;</p>
-        <p>Orchestrated project development processes, encompassing tender documentation preparation, project planning and monitoring, customer communication, and report preparation and presentation, ensuring project milestones were met efficiently;</p>
-        <p>Led investigations into the synthesis of emulsion for various applications, including medical X-ray, air, and aerospace photographic films. Developed bespoke APCS software to facilitate and optimize the synthesis process;</p>
-        <p>Conducted rigorous pre-installation testing of individual modules within a networked environment, ensuring seamless integration and functionality. Oversaw the assembly of disparate modules into cohesive systems;</p>
-        <p>Executed comprehensive test synthesis procedures, fine-tuning equipment and software configurations as necessary to meet project specifications. Provided dedicated post-production customer support, ensuring client satisfaction and resolving any issues promptly.;</p>
+        <p>- Developed software solutions using Java, C++, HTML, JSP, JavaScript, CSS, and SQL for data analysis, APCS, and physical modeling;</p>
+        <p>- Created dynamic JSPs integrating HTML, CSS, Bootstrap, JavaScript (including JQuery and AJAX);</p>
+        <p>- Orchestrated project development processes, including tender documentation, planning, monitoring, and customer communication;</p>
+        <p>- Developed bespoke APCS software for emulsion synthesis in various applications;</p>
+        <p>- Conducted pre-installation testing, ensuring seamless integration, and provided post-production support;</p>
       </p>
     ),
   },
@@ -534,20 +536,20 @@ export const experience: TimelineItem[] = [
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    // {
-    //   name: 'John Doe',
-    //   text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    // },
-    // {
-    //   name: 'Jane Doe',
-    //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    // },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Senior Developer, Mining Evaluation Project',
+      text: 'Andrey demonstrated exceptional skill in both backend and frontend development. Their ability to integrate complex APIs and ensure robust AWS deployments was crucial in enhancing our data analysis capabilities.',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    },
+    {
+      name: 'Project Coordinator, APCS Team',
+      text: 'Andrey excelled in developing sophisticated APCS software for our emulsion synthesis projects. Their ability to manage complex project requirements and deliver high-quality software was highly commendable.',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
+    {
+      name: 'Product Manager, Geotechnical Team',
+      text: 'Andrey led the development of our geotechnical applications with remarkable expertise. Their innovative algorithms and efficient use of technologies like Spring and MySQL greatly improved our calculation automation processes',
+      // image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
 };
@@ -558,7 +560,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Please feel free to reach out to me',
   items: [
     {
       type: ContactType.Email,
