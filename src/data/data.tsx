@@ -74,7 +74,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Andrey Golubev`,
+  name: `Andrey GolubevU`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -567,7 +567,7 @@ export const contact: ContactSection = {
       text: 'contact@andreygolubev.online',
       href: 'mailto:contact@andreygolubev.online',
     },
-    
+
     // {
     //   type: ContactType.Location,
     //   text: 'Victoria BC, Canada',
