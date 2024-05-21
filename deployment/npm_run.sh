@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
-npm start & npx wait-on http://localhost:3000
+kill -9 $(lsof -t -i:3000) || 
+cd / && 
+cd ~/cv-about && 
+git pull && 
+yarn build &&
+npm start & 
+npx wait-on http://localhost:3000
+exit
