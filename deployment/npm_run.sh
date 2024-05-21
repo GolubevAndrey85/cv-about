@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
-npm start & 
-npx wait-on http://localhost:3000 &
+#!/bin/sh
+(npm start&) &
+echo -ne "\n"
 exit
