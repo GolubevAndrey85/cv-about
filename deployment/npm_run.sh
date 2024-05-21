@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-npm start
-exit
+npm start && echo -ne '\n'
