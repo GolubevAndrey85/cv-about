@@ -11,4 +11,4 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME }}
             password: ${{ secrets.PASSWORD }}
-            script: cd / && cd ~/cv-about && sh ./deployment/npm_run.sh
+            script: kill -9 $(lsof -t -i:3000) || cd / && cd ~/cv-about && sh ./deployment/npm_run.sh
