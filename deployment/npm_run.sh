@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npm start && echo -ne '\n'
+npm start & npx wait-on http://localhost:3000
