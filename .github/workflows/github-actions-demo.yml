@@ -22,4 +22,4 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME }}
             password: ${{ secrets.PASSWORD }}
-            script: kill -9 $(lsof -t -i:3000) || cd ~/cv-about/ && git pull && yarn build && npm start
+            script: kill -9 $(lsof -t -i:3000) || cd ~/cv-about && git pull && yarn build && npm start
