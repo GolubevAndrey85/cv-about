@@ -567,6 +567,7 @@ export const contact: ContactSection = {
       text: 'contact@andreygolubev.online',
       href: 'mailto:contact@andreygolubev.online',
     },
+    
     // {
     //   type: ContactType.Location,
     //   text: 'Victoria BC, Canada',
