@@ -69,3 +69,5 @@ Deploying your new site to Vercel is simple, and can be done by following their 
 ## Project Created & Maintained By
 
 (npm start&)
+
+kill -9 $(lsof -t -i:3000)
