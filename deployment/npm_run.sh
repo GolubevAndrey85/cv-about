@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 kill -9 $(lsof -t -i:3000) || 
-cd / && 
-cd ~/cv-about && 
 git pull && 
 yarn build &&
 npm start & 

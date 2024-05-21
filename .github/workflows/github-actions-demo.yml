@@ -11,4 +11,4 @@ jobs:
             host: ${{ secrets.HOST }}
             username: ${{ secrets.USERNAME }}
             password: ${{ secrets.PASSWORD }}
-            script: sh ./deployment/npm_run.sh
+            script: cd / && cd ~/cv-about && sh ./deployment/npm_run.sh
