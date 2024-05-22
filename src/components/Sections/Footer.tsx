@@ -34,7 +34,7 @@ const Footer: FC = memo(() => {
       </div>
       <div className="flex flex-col items-center gap-y-6 pt-5">
         <div className="flex gap-x-4 text-neutral-500">
-          {geoData ? `IP: ${geoData.ip}, City: ${geoData.city}, Region: ${geoData.region}, Country: ${geoData.country}, UTC Offset: ${geoData.utc_offset}` : ""}
+          {geoData ? `IP: ${geoData.ip}, City: ${geoData.city}, Region: ${geoData.region}, Country: ${geoData.country_name}, UTC Offset: ${geoData.utc_offset}, latitude: ${geoData.latitude}, longitude: ${geoData.longitude}` : ""}
         </div>
       </div>
     </div>
