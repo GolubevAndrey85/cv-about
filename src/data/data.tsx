@@ -16,6 +16,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
+import torIconImage from '../images/icons8-tor.png';
 // import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 // import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 // import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -74,6 +75,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
+  torIcon: torIconImage,
   name: `Andrey Golubev`,
   description: (
     <>
@@ -81,6 +83,9 @@ export const heroData: Hero = {
         I'm a Brisbane based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
         at <strong className="text-stone-100"><a href='https://comparethemarket.com.au/'>Compare the Market</a></strong>
       </p>
+      {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        <Link href="andywi4wqsccndf3heddum3tq5ppwhizofi7ofq47odjdlztd36flnad.onion">Dark copy</Link>
+      </p> */}
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
@@ -592,7 +597,9 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   // {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/andrey-golubev-1035152b/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/andrey-golubev-1035152b/'}
   // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
   // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
+
+export const torIcon: string = torIconImage;
