@@ -8,7 +8,7 @@ import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const {imageSrc, name, description, actions} = heroData;
+  const {imageSrc, name, description, actions, torIcon} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -26,13 +26,13 @@ const Hero: FC = memo(() => {
             {description}
             <div className="flex gap-x-4 text-neutral-100">
               <Socials />
-              {/* <a href='https://andywi4wqsccndf3heddum3tq5ppwhizofi7ofq47odjdlztd36flnad.onion' target='_blank'><Image
+              <a href='https://andywi4wqsccndf3heddum3tq5ppwhizofi7ofq47odjdlztd36flnad.onion' target='_blank'><Image
                 alt={`${name}-image`}
                 className="h-5 w-5 align-baseline sm:h-6 sm:w-6"
                 placeholder="blur"
                 priority
                 src={torIcon}
-              /></a> */}
+              /></a>
             </div>
             <div className="flex w-full justify-center gap-x-4">
               {actions.map(({href, text, primary, Icon}) => (
