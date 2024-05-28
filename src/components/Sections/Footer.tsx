@@ -18,7 +18,7 @@ const Footer: FC = memo(() => {
     fetch('https://ipapi.co/json/')
     .then(res => res.json())
     .then(data => setIP(data))
-    console.log("====");
+    // console.log("====");
     //getData();
   }, []);
 
