@@ -1,5 +1,5 @@
 import {ChevronUpIcon} from '@heroicons/react/24/solid';
-import axios from 'axios';
+// import axios from 'axios';
 import {FC, memo, useEffect, useState} from 'react';
 
 import {SectionId} from '../../data/data';
@@ -9,13 +9,16 @@ import Socials from '../Socials';
 const Footer: FC = memo(() => {
   const [geoData, setIP] = useState<GeoIPPayload | null>(null);
 
-  const getData = async () => {
-    const res = await axios.get("https://ipapi.co/json/");
-    setIP(res.data);
-  };
+  // const getData = async () => {
+  //   const res = await axios.get("https://ipapi.co/json/");
+  //   setIP(res.data);
+  // };
 
   useEffect(() => {
-    getData();
+    fetch('https://ipapi.co/json/')
+    .then(res => res.json())
+    .then(data => setIP(data))
+    //getData();
   }, []);
 
   return (
