@@ -452,7 +452,7 @@ export const experience: TimelineItem[] = [
   {
     date: '2021 - Present',
     location: 'Compare the Market, Brisbane, Australia',
-    title: 'Seniour Software Engineer',
+    title: 'Senior Software Engineer',
     content: (
       <p>
         <p>- Engineered robust full-stack solutions using Java, Go, Selenium, Spring, MariaDB, Svelte, JavaScript, React, Redux, Saga, GitHub, Docker, Kubernetes, Bamboo, Jira, Confluence, Azure, Splunk, New Relic, and AWS services (Lambda, CloudWatch, CloudFormation, KMS, EC2);</p>
@@ -464,7 +464,7 @@ export const experience: TimelineItem[] = [
   {
     date: '2021 - Present',
     location: 'Brisbane, Australia',
-    title: 'Seniour Software Engineer',
+    title: 'Senior Software Engineer',
     content: (
       <p>
         <p>- Developed a backend service for drone flight operations, fleet, and compliance management using Java, Spring Boot, Hibernate, Liquibase, MariaDB, Bitbucket, and GeoJSON;</p>
@@ -478,7 +478,7 @@ export const experience: TimelineItem[] = [
   {
     date: '2019 – 2021',
     location: 'Brisbane, Australia',
-    title: 'Seniour Software Developer',
+    title: 'Senior Software Developer',
     content: (
       <p>
         <p>- Engineered backend and frontend components for mining project evaluation and stock data search/analysis using Java, Spring Boot, Hibernate, PostgreSQL, Angular 2, Node.js, Bitbucket, Git, and Jenkins;</p>
