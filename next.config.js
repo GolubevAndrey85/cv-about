@@ -2,7 +2,7 @@
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
-  // output: 'export',
+  output: 'export',
   webpack: config => {
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
 
@@ -34,6 +34,9 @@ const nextConfig = {
         hostname: 'source.unsplash.com',
       },
     ],
+  // When using `output: 'export'` (static export), Next's Image Optimization API is not available.
+  // Disable optimization so exported builds don't fail during static export.
+  unoptimized: true,
   },
 };
 
