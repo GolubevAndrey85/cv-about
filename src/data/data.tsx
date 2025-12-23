@@ -450,36 +450,29 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: '2021 – Present',
+    date: '2021 - Present',
     location: 'Compare the Market, Brisbane, Australia',
     title: 'Senior Software Engineer',
     content: (
-      <>
-        <p>Lead full-stack development for health insurance IT projects, driving delivery from planning to release. Built scalable solutions with Java, Go, Spring, React, Svelte, MariaDB, Docker, Kubernetes, AWS (Lambda, CloudWatch, CloudFormation, KMS, EC2), Selenium, Redux, Saga, GitHub, Bamboo, Jira, Confluence, Azure, Splunk, and New Relic.</p>
-        <p>Key achievements:</p>
-        <ul>
-          <li>Architected and delivered robust backend and frontend systems, improving reliability and maintainability.</li>
-          <li>Coordinated cross-team collaboration, release management, and agile delivery.</li>
-          <li>Enhanced monitoring and automation using Splunk, New Relic, Bamboo, and Azure DevOps.</li>
-          <li>Worked with CI/CD pipelines and container orchestration (Docker, Kubernetes).</li>
-        </ul>
-      </>
+      <p>
+        <p>- Engineered robust full-stack solutions using Java, Go, Selenium, Spring, MariaDB, Svelte, JavaScript, React, Redux, Saga, GitHub, Docker, Kubernetes, Bamboo, Jira, Confluence, Azure, Splunk, New Relic, and AWS services (Lambda, CloudWatch, CloudFormation, KMS, EC2);</p>
+        <p>- Spearheaded the development of health insurance IT projects, overseeing task management, coordinating weekly releases, and executing strategic planning;</p>
+        <p>- Actively collaborated with multiple delivery teams, particularly the core team, to ensure seamless project execution and success;</p>
+      </p>
     ),
   },
   {
-    date: '2021 – Present',
+    date: '2021 - Present',
     location: 'Brisbane, Australia',
-    title: 'Senior Software Engineer (Contract)',
+    title: 'Senior Software Engineer',
     content: (
-      <>
-        <p>Designed and implemented backend services for drone fleet and compliance management using Java, Spring Boot, Hibernate, Liquibase, MariaDB, Bitbucket, and GeoJSON. Developed CASA-compliant flight planning modules integrating coordinates, times, RPA models, NOTAM, and geo API parameters.</p>
-        <p>Key achievements:</p>
-        <ul>
-          <li>Optimized geospatial data processing and DJI flight log parsing (Python, C++ on Ubuntu).</li>
-          <li>Developed unit tests and automated data pipelines.</li>
-          <li>Contributed to third-party platform app development and integration using Node.js and GraphQL.</li>
-        </ul>
-      </>
+      <p>
+        <p>- Developed a backend service for drone flight operations, fleet, and compliance management using Java, Spring Boot, Hibernate, Liquibase, MariaDB, Bitbucket, and GeoJSON;</p>
+        <p>- Designed and maintained a flight planning module compliant with CASA rules, integrating coordinates, times, RPA models, NOTAM, and geo API parameters;</p>
+        <p>- Implemented preprocessing of geospatial data using Python;</p>
+        <p>- Optimized a DJI flight logs parsing service (C++, Python on Ubuntu) and developed comprehensive unit tests;</p>
+        <p>- Contributed to third-party platform app development and integration using Node.js and GraphQL;</p>
+      </p>
     ),
   },
   {
@@ -487,15 +480,13 @@ export const experience: TimelineItem[] = [
     location: 'Brisbane, Australia',
     title: 'Senior Software Developer',
     content: (
-      <>
-        <p>Developed backend and frontend solutions for mining project evaluation and stock data analysis platforms using Java, Spring Boot, Hibernate, PostgreSQL, Angular 2, Node.js, Bitbucket, Git, and Jenkins.</p>
-        <p>Key achievements:</p>
-        <ul>
-          <li>Managed AWS stack deployment and maintenance (CloudFormation, DynamoDB, AWS Lambda, ElasticSearch).</li>
-          <li>Integrated stock data provider APIs for comprehensive data analysis.</li>
-          <li>Crafted and implemented unit, regression, and smoke testing strategies to ensure software reliability.</li>
-        </ul>
-      </>
+      <p>
+        <p>- Engineered backend and frontend components for mining project evaluation and stock data search/analysis using Java, Spring Boot, Hibernate, PostgreSQL, Angular 2, Node.js, Bitbucket, Git, and Jenkins;</p>
+        <p>- Managed AWS stack deployment and maintenance, including CloudFormation, DynamoDB, AWS Lambda, and ElasticSearch.;</p>
+        <p>- Crafted and implemented unit, regression, and smoke testing strategies to ensure software reliability;</p>
+        <p>- Seamlessly integrated stock data provider APIs, enhancing platform capabilities for comprehensive data analysis;</p>
+
+      </p>
     ),
   },
   {
@@ -503,15 +494,13 @@ export const experience: TimelineItem[] = [
     location: 'Sydney, Australia',
     title: 'Full Stack Developer',
     content: (
-      <>
-        <p>Built web applications and REST APIs for enterprise clients using Java, Spring, Hibernate, MySQL, HTML, CSS, Bootstrap, JSP, JavaScript (JQuery, AJAX), and followed agile methodologies.</p>
-        <p>Key achievements:</p>
-        <ul>
-          <li>Managed AWS infrastructure (EC2, Elastic Beanstalk, Lambda, CloudWatch, SQS, RDS, S3, DynamoDB) and automated deployments.</li>
-          <li>Implemented automated testing methodologies using JUnit and Selenium.</li>
-          <li>Provided customer support, resolved operational issues, and developed detailed documentation and user guides.</li>
-        </ul>
-      </>
+      <p>
+        <p>- Developed web applications and REST APIs using Java, Spring, Hibernate, MySQL, HTML, CSS, Bootstrap, JSP, and JavaScript (including JQuery and AJAX), adhering to agile methodologies;</p>
+        <p>- Managed AWS infrastructure deployment and maintenance, including EC2, Elastic Beanstalk, Lambda, CloudWatch, SQS, RDS, S3, and DynamoDB;</p>
+        <p>- Implemented automated testing methodologies using JUnit and Selenium;</p>
+        <p>- Provided dedicated customer support and resolved operational issues efficiently;</p>
+        <p>- Developed detailed documentation and user guides to facilitate software utilization;</p>
+      </p>
     ),
   },
   {
@@ -519,17 +508,29 @@ export const experience: TimelineItem[] = [
     location: 'Kazan, Russia',
     title: 'Engineer',
     content: (
-      <>
-        <p>Led development of web and scientific applications for geotechnical and industrial automation projects. Engineered solutions with Java, C++, Spring, Hibernate, MySQL, Jama, Apache Commons Math, JSP, HTML, CSS, Bootstrap, JavaScript (JQuery, AJAX, plotly), and SQL.</p>
-        <p>Key achievements:</p>
-        <ul>
-          <li>Designed and implemented data analysis algorithms and intuitive UIs.</li>
-          <li>Managed version control with Git, maintained high unit test coverage (JUnit, jMock), and administered Linux servers.</li>
-          <li>Developed and supported APCS software for emulsion synthesis and physical modeling, including optical installations for research (fs and ns, room to helium temperatures).</li>
-          <li>Worked with equipment such as Coherent Legend Elite, OPerA Solo OPA, Solar systems, Oxford cryogenics, Thorlabs, and more.</li>
-          <li>Orchestrated project development processes, including tender documentation, planning, monitoring, and customer communication.</li>
-        </ul>
-      </>
+      <p>
+        <p>- Led the development of web applications for automating geotechnical calculations using Java, Spring, Hibernate, and MySQL;</p>
+        <p>- Worked within an agile team, refining product features based on feedback and sprint cycles;</p>
+        <p>- Developed sophisticated data analysis algorithms using Jama and Apache Commons Math;</p>
+        <p>- Designed intuitive UIs with JSP, HTML, CSS, Bootstrap, and JavaScript (including JQuery, AJAX, and plotly);</p>
+        <p>- Managed version control with Git, ensuring seamless collaboration;</p>
+        <p>- Maintained high levels of unit test coverage through TDD with JUnit and jMock;</p>
+        <p>- Implemented robust logging with Spring AOP and AspectJ, and administered MySQL databases and Linux servers for optimal performance;</p>
+      </p>
+    ),
+  },
+  {
+    date: '2014 – 2017',
+    location: 'Kazan, Russia',
+    title: 'Engineer',
+    content: (
+      <p>
+        <p>- Developed software solutions using Java, C++, HTML, JSP, JavaScript, CSS, and SQL for data analysis, APCS, and physical modeling;</p>
+        <p>- Created dynamic JSPs integrating HTML, CSS, Bootstrap, JavaScript (including JQuery and AJAX);</p>
+        <p>- Orchestrated project development processes, including tender documentation, planning, monitoring, and customer communication;</p>
+        <p>- Developed bespoke APCS software for emulsion synthesis in various applications;</p>
+        <p>- Conducted pre-installation testing, ensuring seamless integration, and provided post-production support;</p>
+      </p>
     ),
   },
 ];
